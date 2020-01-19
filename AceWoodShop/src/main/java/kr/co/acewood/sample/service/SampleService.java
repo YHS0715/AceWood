@@ -13,9 +13,6 @@ public class SampleService {
     @Autowired
     private SampleMapper SampleMapper;
 
-    /*
-     * 회원 리스트 조회 (샘플)
-     */
     public List<Member> getMembers() {
         return SampleMapper.getMembers();
     }

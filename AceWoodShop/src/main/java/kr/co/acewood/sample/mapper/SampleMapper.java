@@ -11,8 +11,5 @@ import kr.co.acewood.sample.model.Member;
 @Repository("kr.co.acewood.sample.mapper.SampleMapper")
 public interface SampleMapper {
 
-    /*
-     * 회원 리스트 조회 (샘플)
-     */
     public List<Member> getMembers();
 }
