@@ -14,7 +14,7 @@
         <th>이름</th>
         <th>ID</th>
         <th>PW</th>
-        <th>주소</th>
+        <th>고소</th>
     </tr>
     <c:forEach items="${memberList}" var="member">
     <tr>
